@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+    color: black;
+}
+
+body {
+    background-color: #f1ffe8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-image: url(bg2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    box-shadow: 0 2px 62px -2px rgb(97 107 81);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f1ffe8;
+
+}
+
+#navbar a {
+    margin: 0px 23px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+#navbar a:hover {
+    color: rgb(88, 142, 0);
+}
+
+#navbar li {
+    list-style: none;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+}
+
+.ta {
+    font-size: 45px;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.ta span {
+    color: #f1ffe8;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    height: 280px;
+}
+
+.slogan {
+    font-size: 15px;
+}
+
+#shop {
+    height: 1000px;
+    background-color: #f1ffe8;
+    border: 1px solid #11d100;
+    box-shadow: 20px 20px 51px rgba(0, 93, 11, 0.292), -20px -20px 51px rgba(0, 93, 11, 0.333);
+    margin: 30px auto;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.section2 {
+    padding-top: 120px;
+    height: 900px;
+    background-color: #f1ffe8;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    padding: 10px 20px;
+    border-radius: 5%;
+    transition: 0.2s ease-out;
+    /* border: 1px solid #000000; */
+}
+
+.gallery img:hover {
+    /* padding: 7px 10px; */
+    scale: 1.1;
+    transition: .5s ease-in;
+    border-radius: 10%;
+
+}
+
+.picture {
+    height: 300px;
+    width: 300px;
+    /* background: linear-gradient(#ffffff6b, #9dff0b, #ffffff6b); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#about {
+    height: 900px;
+    background-color: #f1ffe8;
+    border: 1px solid #11d100;
+    box-shadow: 20px 20px 51px rgba(0, 93, 11, 0.276), -20px -20px 51px rgba(0, 93, 11, 0.304);
+    margin: 30px auto;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.section3 {
+    padding-top: 120px;
+    height: 850px;
+    background-color: #f1ffe8;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.bio1 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.bio1 .left {
+    height: 350px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data1 {
+    margin: 5px;
+    padding: 35px;
+}
+
+.bio1 .right {
+    height: 350px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bio2 {
+    height: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.bio2 .left {
+    height: 350px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio2 .right {
+    height: 350px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: #f1ffe8;
+    border: 1px solid #11d100;
+    box-shadow: 20px 20px 51px rgba(0, 93, 11, 0.276), -20px -20px 51px rgba(0, 93, 11, 0.304);
+    margin: 30px auto;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.section4 {
+    height: 850px;
+    background-color: #f1ffe8;
+    padding-top: 120px;
+
+}
+
+.container4 {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    margin: 0px 0 100px 0;
+}
+
+.inbox {
+    display: flex;
+}
+
+.contactInfo {
+    margin: 0 0px 0 220px;
+    padding: 0 23px;
+    flex: 1;
+}
+
+.box {
+    margin: 23px 0 23 0;
+    display: flex;
+}
+
+.box .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.box .text {
+    margin: 23px;
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0 70px;
+    padding: 0 23px;
+    flex: 1;
+}
+
+.contactForm .inputBox {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#name {
+    height: 60px;
+    width: 250px;
+}
+
+#email {
+    height: 60px;
+    width: 250px;
+}
+
+#message {
+    height: 60px;
+    width: 250px;
+}
+
+.contactForm span {
+    margin-top: 12px;
+    height: 12px;
+}
+
+/* 
+#button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 0;
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-radius 0.3s ease, color 0.3s ease-in;
+}
+
+#button:hover {
+    background-color: rgb(207, 252, 237);
+    border-radius: 10px;
+    color: black;
+}
+ */
+
+.divider {
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-top: 2px solid #1c7d0165;
+    background-color: transparent;
+}
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  
+/* 2 */
+.btn-2 {
+    background: rgb(207, 252, 237);
+    background: linear-gradient(0deg, rgb(207, 252, 237) 0%, rgb(207, 252, 237) 100%);
+    border: none;
+    color: black;
+  }
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  
